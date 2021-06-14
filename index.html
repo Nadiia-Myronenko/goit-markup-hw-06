@@ -247,7 +247,7 @@
         </section>
         <div data-modal class="backdrop is-hidden">
             <div class="modal">
-                <button data-modal-close class="close-btn" type="button">
+                <button data-modal-close class="close-btn" type="button" aria-label="close">
                     <svg class="cross-icon">
                         <use href="./images/symbol-defs.svg#cross"></use>
                     </svg>
@@ -285,6 +285,15 @@
                             </svg></a></li>
                 </ul>
             </div>
+            <form class="subscribe-form">
+                <p class="appeal">Подпишитесь на рассылку</p>
+                <div class="form-field">
+                    <input class="email-input" type="email" name="e-mail" placeholder="E-mail" />
+                    <button class="subscribe-button" type="submit">Подписаться<svg class="send-icon">
+                        <use href="./images/symbol-defs.svg#send"></use>
+                    </svg></button>
+                </div>
+            </form>
         </div>
     </footer>
     <script src="./js/modal.js"></script>
